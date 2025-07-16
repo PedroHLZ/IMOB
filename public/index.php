@@ -1,8 +1,13 @@
 <?php
+declare(strict_types=1);
+
+// Iniciar sessão antes de qualquer saída
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../config/database.php';
-
-session_start();
 
 
 // Se o usuário não estiver autenticado, redirecionar para login exceto para rotas de login
