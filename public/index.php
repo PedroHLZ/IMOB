@@ -51,7 +51,7 @@ switch ($path) {
         $controller->deleteBroker();
         break;
     case '/':
-    case '/public/':
+    case '/public':
         $controller = new App\Controllers\ClientController();
         $controller->index();
         break;
