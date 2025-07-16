@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sistema-clientes
+    name: imob-system
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
