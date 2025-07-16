@@ -1,0 +1,13 @@
+{
+    "name": "pernambuco-imobiliaria/sistema-clientes",
+    "description": "Sistema de gerenciamento de clientes para Pernambuco Imobiliária",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
