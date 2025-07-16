@@ -1,0 +1,4 @@
+# Permitir acesso a todos os arquivos nesta pasta
+<IfModule mod_autoindex.c>
+    Options +Indexes
+</IfModule>
